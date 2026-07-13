@@ -52,31 +52,35 @@ Most skills are intentionally explicit-invocation only. They should change the w
 
 ## Install
 
-### Codex: repository scope
+Skills install into the host application, not into GPT, Claude, or DeepSeek model weights.
 
-Copy one skill into the target repository:
+The no-dependency installer works on Windows, macOS, and Linux.
 
-PowerShell:
+Install the complete collection for every Codex project:
 
-    New-Item -ItemType Directory -Force .agents\skills | Out-Null
-    Copy-Item -Recurse .\skills\simon-says .agents\skills\simon-says
+    python scripts/install.py --host codex --scope user
 
-Bash:
+Install only the router:
 
-    mkdir -p .agents/skills
-    cp -R skills/simon-says .agents/skills/simon-says
+    python scripts/install.py --host codex --scope user --skill simon-says
 
-To install the complete collection, copy every folder under skills into .agents/skills.
+Install into one Codex project:
 
-### Codex: user scope
+    python scripts/install.py --host codex --scope project --project PATH_TO_PROJECT
 
-Copy selected folders into HOME/.agents/skills to make them available across repositories.
+Install for every Claude Code project:
 
-### Other Agent Skills-compatible builders
+    python scripts/install.py --host claude-code --scope user
 
-Each folder is self-contained. Copy the selected skill folder into the builder's configured skills directory. Tools that do not scan skills can use the SKILL.md file as a system or project instruction.
+Use a DeepSeek-powered or other Agent Skills-compatible host by naming the folder it scans:
 
-The repository also contains a Codex plugin manifest so the full collection can be distributed as one plugin bundle.
+    python scripts/install.py --host custom --destination PATH_TO_SKILLS
+
+Add `--dry-run` to preview the copy. Existing skill folders are protected unless `--force` is explicit. Run `python scripts/install.py --list` to see the names available for selective installation.
+
+Once this repository is public, Codex users can also ask `$skill-installer` to install skills from `https://github.com/jawsublime-byte/simon-says`.
+
+The included `.codex-plugin/plugin.json` packages the complete collection for ChatGPT Work, the ChatGPT desktop app, and Codex plugin distribution. A local filesystem installer cannot inject a plugin into hosted ChatGPT; use that product's plugin installation flow after publication.
 
 ## Safety
 
