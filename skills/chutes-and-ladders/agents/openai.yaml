@@ -1,0 +1,7 @@
+interface:
+  display_name: "Chutes and Ladders"
+  short_description: "Find fast paths, bottlenecks, and regressions."
+  default_prompt: "Use $chutes-and-ladders to map fast paths and bottlenecks."
+
+policy:
+  allow_implicit_invocation: false

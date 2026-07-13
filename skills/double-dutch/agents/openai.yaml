@@ -1,0 +1,7 @@
+interface:
+  display_name: "Double Dutch"
+  short_description: "Fit new work into an existing workflow rhythm."
+  default_prompt: "Use $double-dutch to find the safest insertion point in this workflow."
+
+policy:
+  allow_implicit_invocation: false

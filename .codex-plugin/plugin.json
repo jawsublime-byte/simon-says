@@ -1,0 +1,18 @@
+{
+  "name": "simon-says",
+  "version": "0.1.0",
+  "description": "Memorable Agent Skills for exact execution, testing, debugging, alignment, and simpler output.",
+  "author": {
+    "name": "jawsublime-byte"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Simon Says",
+    "shortDescription": "Playground rules for predictable AI builders.",
+    "longDescription": "Simon Says turns familiar childhood games into focused Agent Skills for exact build-order execution, defensive testing, debugging, workflow alignment, and minimum-sufficient output.",
+    "developerName": "jawsublime-byte",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Use Simon Says to choose and apply the right playground rule for this task."
+  }
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "M.I.S.S."
+  short_description: "Deep analysis without scope drift or filler."
+  default_prompt: "Use $miss to analyze this problem deeply before answering."
+
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Patty Cake"
+  short_description: "Check user-agent alignment before drift spreads."
+  default_prompt: "Use $patty-cake to verify that our plan and current work still match."
+
+policy:
+  allow_implicit_invocation: false

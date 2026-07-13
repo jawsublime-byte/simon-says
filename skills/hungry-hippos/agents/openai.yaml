@@ -1,0 +1,7 @@
+interface:
+  display_name: "Hungry Hippos"
+  short_description: "Trace memory growth, data loss, and leaks."
+  default_prompt: "Use $hungry-hippos to find what is consuming or losing memory and data."
+
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Sand Castles"
+  short_description: "Build a safe disposable test environment."
+  default_prompt: "Use $sand-castles to design a disposable sandbox for this test."
+
+policy:
+  allow_implicit_invocation: false

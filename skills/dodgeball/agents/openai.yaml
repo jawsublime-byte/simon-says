@@ -1,0 +1,7 @@
+interface:
+  display_name: "Dodgeball"
+  short_description: "Coordinate concurrent and sequential attack tests."
+  default_prompt: "Use $dodgeball to coordinate a defensive test volley."
+
+policy:
+  allow_implicit_invocation: false

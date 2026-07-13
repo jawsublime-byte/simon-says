@@ -1,0 +1,7 @@
+interface:
+  display_name: "Go Fish"
+  short_description: "Locate an exact code line, symbol, or behavior."
+  default_prompt: "Use $go-fish to locate this exact code or behavior."
+
+policy:
+  allow_implicit_invocation: false

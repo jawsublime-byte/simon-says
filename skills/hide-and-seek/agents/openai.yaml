@@ -1,0 +1,7 @@
+interface:
+  display_name: "Hide and Seek"
+  short_description: "Find hidden defects and overlooked failure paths."
+  default_prompt: "Use $hide-and-seek to uncover hidden defects in this build."
+
+policy:
+  allow_implicit_invocation: false

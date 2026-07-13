@@ -1,0 +1,7 @@
+interface:
+  display_name: "K.I.S.S."
+  short_description: "Minimum sufficient code and communication."
+  default_prompt: "Use $kiss to produce the smallest complete solution."
+
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Heads Up Seven Up"
+  short_description: "Classify risky inputs beyond surface appearance."
+  default_prompt: "Use $heads-up-seven-up to classify these inputs by hidden risk."
+
+policy:
+  allow_implicit_invocation: false

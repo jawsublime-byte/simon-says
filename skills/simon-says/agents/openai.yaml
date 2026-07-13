@@ -1,0 +1,7 @@
+interface:
+  display_name: "Simon Says"
+  short_description: "Exact build-order executor and skill router."
+  default_prompt: "Use $simon-says to execute this build order exactly as written."
+
+policy:
+  allow_implicit_invocation: false

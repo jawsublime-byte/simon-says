@@ -1,0 +1,7 @@
+interface:
+  display_name: "Battleship"
+  short_description: "Run blind tests to expose unknown weak points."
+  default_prompt: "Use $battleship to probe this build for unknown weak points."
+
+policy:
+  allow_implicit_invocation: false

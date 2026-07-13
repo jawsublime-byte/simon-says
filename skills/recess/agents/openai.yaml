@@ -1,0 +1,7 @@
+interface:
+  display_name: "Recess"
+  short_description: "Propose one optional improvement for approval."
+  default_prompt: "Use $recess to propose one optional improvement for my approval."
+
+policy:
+  allow_implicit_invocation: false

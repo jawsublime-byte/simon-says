@@ -1,0 +1,7 @@
+interface:
+  display_name: "Red Rover"
+  short_description: "Challenge boundaries with adversarial tests."
+  default_prompt: "Use $red-rover to challenge this boundary with adversarial tests."
+
+policy:
+  allow_implicit_invocation: false
