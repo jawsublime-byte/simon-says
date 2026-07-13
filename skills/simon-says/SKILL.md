@@ -41,6 +41,7 @@ Read the task and select exactly one leading skill:
 - coordinated sequential or concurrent tests: dodgeball
 - disposable test isolation: sand-castles
 - workflow insertion timing: double-dutch
+- disposable UI sketch and clean redraw: etch-a-sketch
 - instruction and implementation alignment: patty-cake
 - exact code or behavior location: go-fish
 - hidden input risk classification: heads-up-seven-up

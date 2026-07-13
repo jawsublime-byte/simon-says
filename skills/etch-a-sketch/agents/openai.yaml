@@ -1,0 +1,6 @@
+interface:
+  display_name: "Etch A Sketch"
+  short_description: "Draw, review, shake, and redraw disposable UI."
+  default_prompt: "Use $etch-a-sketch to draw a disposable UI prototype for this idea."
+policy:
+  allow_implicit_invocation: false

@@ -55,6 +55,11 @@
     "should_not_trigger": ["Replace the workflow architecture"]
   },
   {
+    "skill": "etch-a-sketch",
+    "should_trigger": ["$etch-a-sketch draw a disposable dashboard wireframe and let me approve it"],
+    "should_not_trigger": ["Rewrite the production UI without a temporary preview"]
+  },
+  {
     "skill": "patty-cake",
     "should_trigger": ["$patty-cake check whether the implementation still matches my directive"],
     "should_not_trigger": ["Continue despite a material mismatch"]

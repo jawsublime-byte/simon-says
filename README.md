@@ -32,6 +32,7 @@ Example:
 | [Dodgeball](skills/dodgeball/) | A coordinated volley from many angles | Race and load failures | Coordinate safe sequential and concurrent test volleys |
 | [Sand Castles](skills/sand-castles/) | Build where failure is harmless | Risky experiments | Create a disposable sandbox with isolation and teardown |
 | [Double Dutch](skills/double-dutch/) | Enter without breaking the rhythm | Workflow insertion | Find the safest branch or handoff point |
+| [Etch A Sketch](skills/etch-a-sketch/) | Draw, inspect, shake clean, redraw | UI ideas trapped in prose or endlessly patched drafts | Render a disposable UI and let only an approved sketch graduate |
 | [Patty Cake](skills/patty-cake/) | Stay in sync | User-agent drift | Compare instructions, plan, and work; stop on material mismatch |
 | [Go Fish](skills/go-fish/) | Ask for the exact card | Code-location searches | Locate an exact line, symbol, file, or behavior without editing |
 | [Heads Up Seven Up](skills/heads-up-seven-up/) | Judge without relying on appearances | Unsafe inputs | Classify inputs by provenance and behavior, not surface form |
