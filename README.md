@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/schoolyard-hero.jpg" alt="Children playing together across a busy schoolyard" width="100%">
+</p>
+
 # Simon Says
 
 Playground rules for predictable AI builders.
@@ -16,6 +20,10 @@ Simon Says has two explicit modes:
 Example:
 
     $simon-says execute BUILD_ORDER.md exactly as written
+
+<p align="center">
+  <img src="assets/schoolyard-follow.jpg" alt="Children following one leader's directions in the schoolyard" width="76%">
+</p>
 
 ## Skill catalog
 
@@ -49,6 +57,10 @@ ChatGPT supports at-mentions when the skill is installed:
     @hide-and-seek inspect the authentication flow for hidden failure paths
 
 Most skills are intentionally explicit-invocation only. They should change the work only when the user chooses the game.
+
+<p align="center">
+  <img src="assets/schoolyard-pressure.jpg" alt="Children testing a human chain together in the schoolyard" width="76%">
+</p>
 
 ## Install
 
@@ -88,6 +100,10 @@ Adversarial skills are for defensive testing of systems the user owns or is auth
 
 All skills yield to higher-level safety rules, repository policy, permission limits, and explicit approval gates.
 
+<p align="center">
+  <img src="assets/schoolyard-create.jpg" alt="Children coordinating a jumping rhythm, working in sync, and building in a sandbox" width="100%">
+</p>
+
 ## Validate
 
 Run:
@@ -100,8 +116,19 @@ The validator checks every skill's name, frontmatter, UI metadata, evaluation co
 
 Read CONTRIBUTING.md before proposing a game. Every new skill must map one familiar rule to one recurring builder problem and include both trigger and non-trigger evaluations.
 
+## From the builder
+
+Created by Joe, an online English teacher building practical, local-first tools for safer and more predictable AI-assisted work.
+
+On the workbench:
+
+- **Echoes** — local-first archive archaeology, project reconstruction, and timeline recovery.
+- **The MCP Workshop Manual** — a field-repair reference for diagnosing and repairing MCP infrastructure.
+
+Projects will be linked here only when they are ready for public testing or release.
+
 ## License
 
 MIT. See LICENSE.
 
-This project uses familiar playground language as a mnemonic system. It is not affiliated with a game publisher.
+See [NOTICE.md](NOTICE.md) for the independent-project and third-party mark notice.
