@@ -6,31 +6,36 @@
       "relative_path": "Hayes T. Rust Essentials. Master the Language of Safe Systems Programming 2024.md",
       "bytes": 1685335,
       "sha256": "6ca44d8a080dbea3b48e07cf23dfeb447fa476f474ba76a44249397fbe4453aa",
-      "authority": "supplementary"
+      "authority": "supplementary",
+      "search_priority": 90
     },
     {
       "relative_path": "Klabnik S. The Rust Programming Language 2ed 2023.md",
       "bytes": 1160121,
       "sha256": "3371ce210c43e443283fc1aff1a0d587d070eb715ea14ff0b9c702ea00db382b",
-      "authority": "official-edition"
+      "authority": "official-edition",
+      "search_priority": 30
     },
     {
       "relative_path": "Klabnik S. The Rust Programming Language 3ed 2026.md",
       "bytes": 1281666,
       "sha256": "a790ddd8c17600c7897dadef42b92f9478d2471dd10e3dcbc57b156542af444d",
-      "authority": "official-edition"
+      "authority": "official-edition",
+      "search_priority": 10
     },
     {
       "relative_path": "The Cargo Book.md",
       "bytes": 1241512,
       "sha256": "e0f64be4a32783eb5f0c8c5297d04c60668c941b2de7d95ed69cba0b96ad0dcd",
-      "authority": "official-cargo"
+      "authority": "official-cargo",
+      "search_priority": 10
     },
     {
       "relative_path": "The Rust Programming Language.md",
       "bytes": 1361961,
       "sha256": "910ef7e5f87b375bf996e49b07255d7221ae034a4b95999d015ab79c6d18efcb",
-      "authority": "official-edition"
+      "authority": "official-edition",
+      "search_priority": 20
     }
   ]
 }
