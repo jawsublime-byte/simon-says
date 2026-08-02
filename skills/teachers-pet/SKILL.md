@@ -1,6 +1,6 @@
 ---
 name: teachers-pet
-description: Use when a Rust implementation, review, repair, or Cargo decision requires authoritative syntax, language, edition, ownership, safety, workspace, crate, or build-system guidance from the approved local manuals, including when a Simon Says packet explicitly authorizes Rust reference consultation.
+description: Consult the approved local Rust manuals for syntax, language, edition, ownership, safety, workspace, crate, or Cargo questions. Use only when the user explicitly invokes Teacher's Pet or a Simon Says directive authorizes it.
 ---
 
 # Teacher's Pet
