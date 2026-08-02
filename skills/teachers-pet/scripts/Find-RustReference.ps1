@@ -11,6 +11,9 @@ param(
     [ValidateRange(1, 50)]
     [int]$MaxMatches = 12,
 
+    [ValidateSet("official-edition", "official-cargo", "supplementary")]
+    [string]$Authority,
+
     [switch]$VerifyOnly
 )
 
@@ -77,8 +80,13 @@ if ([string]::IsNullOrWhiteSpace($Query)) {
     throw "QUERY_REQUIRED: provide -Query or use -VerifyOnly"
 }
 
+$SearchManuals = @($Verified)
+if (-not [string]::IsNullOrWhiteSpace($Authority)) {
+    $SearchManuals = @($Verified | Where-Object { $_.Authority -eq $Authority })
+}
+
 $Results = @()
-foreach ($Manual in $Verified) {
+foreach ($Manual in $SearchManuals) {
     if ($Results.Count -ge $MaxMatches) { break }
 
     $Lines = [IO.File]::ReadAllLines($Manual.Path)
@@ -109,6 +117,7 @@ foreach ($Manual in $Verified) {
     Status = "PASS"
     CatalogVerified = $true
     Query = $Query
+    AuthorityFilter = $Authority
     MatchLimit = $MaxMatches
     MatchCount = $Results.Count
     Truncated = ($Results.Count -ge $MaxMatches)
