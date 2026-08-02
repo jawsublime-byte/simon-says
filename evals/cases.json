@@ -1,82 +1,155 @@
 [
   {
     "skill": "simon-says",
-    "should_trigger": ["$simon-says execute BUILD_ORDER.md exactly as written"],
-    "should_not_trigger": ["What architecture would you recommend?"]
+    "should_trigger": [
+      "$simon-says execute BUILD_ORDER.md exactly as written"
+    ],
+    "should_not_trigger": [
+      "What architecture would you recommend?"
+    ]
   },
   {
     "skill": "kiss",
-    "should_trigger": ["$kiss remove needless code and explain the result plainly"],
-    "should_not_trigger": ["Write a detailed training manual with a 10,000-word minimum"]
+    "should_trigger": [
+      "$kiss remove needless code and explain the result plainly"
+    ],
+    "should_not_trigger": [
+      "Write a detailed training manual with a 10,000-word minimum"
+    ]
   },
   {
     "skill": "miss",
-    "should_trigger": ["$miss analyze the failure modes and verify the best solution"],
-    "should_not_trigger": ["Give me the shortest possible answer"]
+    "should_trigger": [
+      "$miss analyze the failure modes and verify the best solution"
+    ],
+    "should_not_trigger": [
+      "Give me the shortest possible answer"
+    ]
   },
   {
     "skill": "hide-and-seek",
-    "should_trigger": ["$hide-and-seek find hidden causes of this intermittent failure"],
-    "should_not_trigger": ["Implement the already diagnosed one-line fix"]
+    "should_trigger": [
+      "$hide-and-seek find hidden causes of this intermittent failure"
+    ],
+    "should_not_trigger": [
+      "Implement the already diagnosed one-line fix"
+    ]
   },
   {
     "skill": "red-rover",
-    "should_trigger": ["$red-rover test whether malformed requests cross this validation boundary"],
-    "should_not_trigger": ["Attack a service I do not own"]
+    "should_trigger": [
+      "$red-rover test whether malformed requests cross this validation boundary"
+    ],
+    "should_not_trigger": [
+      "Attack a service I do not own"
+    ]
   },
   {
     "skill": "battleship",
-    "should_trigger": ["$battleship black-box test this parser for failures we did not predict"],
-    "should_not_trigger": ["Explain how the parser is implemented"]
+    "should_trigger": [
+      "$battleship black-box test this parser for failures we did not predict"
+    ],
+    "should_not_trigger": [
+      "Explain how the parser is implemented"
+    ]
   },
   {
     "skill": "chutes-and-ladders",
-    "should_trigger": ["$chutes-and-ladders measure the fast paths and bottlenecks in this pipeline"],
-    "should_not_trigger": ["Refactor this code without performance evidence"]
+    "should_trigger": [
+      "$chutes-and-ladders measure the fast paths and bottlenecks in this pipeline"
+    ],
+    "should_not_trigger": [
+      "Refactor this code without performance evidence"
+    ]
   },
   {
     "skill": "recess",
-    "should_trigger": ["$recess propose one optional improvement and wait for approval"],
-    "should_not_trigger": ["Implement every improvement you can imagine"]
+    "should_trigger": [
+      "$recess propose one optional improvement and wait for approval"
+    ],
+    "should_not_trigger": [
+      "Implement every improvement you can imagine"
+    ]
   },
   {
     "skill": "dodgeball",
-    "should_trigger": ["$dodgeball coordinate sequential and concurrent tests for this queue"],
-    "should_not_trigger": ["Flood a public endpoint"]
+    "should_trigger": [
+      "$dodgeball coordinate sequential and concurrent tests for this queue"
+    ],
+    "should_not_trigger": [
+      "Flood a public endpoint"
+    ]
   },
   {
     "skill": "sand-castles",
-    "should_trigger": ["$sand-castles create a disposable environment for this migration test"],
-    "should_not_trigger": ["Run the experiment directly against production"]
+    "should_trigger": [
+      "$sand-castles create a disposable environment for this migration test"
+    ],
+    "should_not_trigger": [
+      "Run the experiment directly against production"
+    ]
   },
   {
     "skill": "double-dutch",
-    "should_trigger": ["$double-dutch find where this new process can enter the workflow safely"],
-    "should_not_trigger": ["Replace the workflow architecture"]
+    "should_trigger": [
+      "$double-dutch find where this new process can enter the workflow safely"
+    ],
+    "should_not_trigger": [
+      "Replace the workflow architecture"
+    ]
   },
   {
     "skill": "etch-a-sketch",
-    "should_trigger": ["$etch-a-sketch draw a disposable dashboard wireframe and let me approve it"],
-    "should_not_trigger": ["Rewrite the production UI without a temporary preview"]
+    "should_trigger": [
+      "$etch-a-sketch draw a disposable dashboard wireframe and let me approve it"
+    ],
+    "should_not_trigger": [
+      "Rewrite the production UI without a temporary preview"
+    ]
   },
   {
     "skill": "patty-cake",
-    "should_trigger": ["$patty-cake check whether the implementation still matches my directive"],
-    "should_not_trigger": ["Continue despite a material mismatch"]
+    "should_trigger": [
+      "$patty-cake check whether the implementation still matches my directive"
+    ],
+    "should_not_trigger": [
+      "Continue despite a material mismatch"
+    ]
   },
   {
     "skill": "go-fish",
-    "should_trigger": ["$go-fish find the exact line that writes memory_backup.json"],
-    "should_not_trigger": ["Rewrite the storage layer"]
+    "should_trigger": [
+      "$go-fish find the exact line that writes memory_backup.json"
+    ],
+    "should_not_trigger": [
+      "Rewrite the storage layer"
+    ]
   },
   {
     "skill": "heads-up-seven-up",
-    "should_trigger": ["$heads-up-seven-up classify these uploads by hidden input risk"],
-    "should_not_trigger": ["Trust every file extension at face value"]
+    "should_trigger": [
+      "$heads-up-seven-up classify these uploads by hidden input risk"
+    ],
+    "should_not_trigger": [
+      "Trust every file extension at face value"
+    ]
   },
   {
     "skill": "hungry-hippos",
-    "should_trigger": ["$hungry-hippos trace where memory grows and data disappears"],
-    "should_not_trigger": ["Optimize memory without measuring it"]
+    "should_trigger": [
+      "$hungry-hippos trace where memory grows and data disappears"
+    ],
+    "should_not_trigger": [
+      "Optimize memory without measuring it"
+    ]
+  },
+  {
+    "skill": "teachers-pet",
+    "should_trigger": [
+      "$teachers-pet verify this Rust ownership decision against the approved local manuals"
+    ],
+    "should_not_trigger": [
+      "Answer this unrelated JavaScript syntax question"
+    ]
   }
 ]
