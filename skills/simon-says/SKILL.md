@@ -45,7 +45,7 @@ Read the task and select exactly one leading skill:
 - instruction and implementation alignment: patty-cake
 - exact code or behavior location: go-fish
 - hidden input risk classification: heads-up-seven-up
-- memory growth or data-loss tracing: hungry-hippos
+- memory growth or data-loss tracing: hungry-hippos\n- Rust or Cargo uncertainty requiring approved local manuals: teachers-pet
 
 Output:
 
