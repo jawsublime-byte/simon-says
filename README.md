@@ -44,7 +44,7 @@ Example:
 | [Patty Cake](skills/patty-cake/) | Stay in sync | User-agent drift | Compare instructions, plan, and work; stop on material mismatch |
 | [Go Fish](skills/go-fish/) | Ask for the exact card | Code-location searches | Locate an exact line, symbol, file, or behavior without editing |
 | [Heads Up Seven Up](skills/heads-up-seven-up/) | Judge without relying on appearances | Unsafe inputs | Classify inputs by provenance and behavior, not surface form |
-| [Hungry Hippos](skills/hungry-hippos/) | Find what is consuming everything | Memory and data leaks | Measure where resources grow, remain retained, or disappear |
+| [Hungry Hippos](skills/hungry-hippos/) | Find what is consuming everything | Memory and data leaks | Measure where resources grow, remain retained, or disappear |\n| [Teacher's Pet](skills/teachers-pet/) | Check the approved textbook | Uncertain Rust or Cargo decisions | Retrieve bounded, integrity-verified evidence from the approved local manuals |
 
 ## Use
 
