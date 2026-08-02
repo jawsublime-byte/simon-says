@@ -1,0 +1,7 @@
+interface:
+  display_name: "Teacher’s Pet"
+  short_description: "Ground Rust decisions in approved local manuals."
+  default_prompt: "Use $teachers-pet to verify this Rust question against the approved local reference library."
+
+policy:
+  allow_implicit_invocation: false
