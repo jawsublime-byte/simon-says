@@ -61,6 +61,7 @@ foreach ($Manual in $Manuals) {
         RelativePath = $Manual.relative_path
         Path = $Path
         Authority = $Manual.authority
+        SearchPriority = [int]$Manual.search_priority
         Bytes = $File.Length
         SHA256 = $Digest
     }
@@ -71,7 +72,7 @@ if ($VerifyOnly) {
         Status = "PASS"
         ReferenceRoot = (Resolve-Path -LiteralPath $Root).Path
         ManualCount = $Verified.Count
-        Manuals = @($Verified | Select-Object RelativePath, Authority, Bytes, SHA256)
+        Manuals = @($Verified | Sort-Object SearchPriority, RelativePath | Select-Object RelativePath, Authority, SearchPriority, Bytes, SHA256)
     } | ConvertTo-Json -Depth 5
     exit 0
 }
@@ -80,9 +81,9 @@ if ([string]::IsNullOrWhiteSpace($Query)) {
     throw "QUERY_REQUIRED: provide -Query or use -VerifyOnly"
 }
 
-$SearchManuals = @($Verified)
+$SearchManuals = @($Verified | Sort-Object SearchPriority, RelativePath)
 if (-not [string]::IsNullOrWhiteSpace($Authority)) {
-    $SearchManuals = @($Verified | Where-Object { $_.Authority -eq $Authority })
+    $SearchManuals = @($SearchManuals | Where-Object { $_.Authority -eq $Authority })
 }
 
 $Results = @()
