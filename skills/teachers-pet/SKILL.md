@@ -1,6 +1,6 @@
 ---
 name: teachers-pet
-description: Consult the approved local Rust manuals for syntax, language, edition, ownership, safety, workspace, crate, or Cargo questions. Use only when the user explicitly invokes Teacher's Pet or a Simon Says directive authorizes it.
+description: Use when a Rust implementation, review, repair, or Cargo decision requires authoritative syntax, language, edition, ownership, safety, workspace, crate, or build-system guidance from the approved local manuals, including when a Simon Says packet explicitly authorizes Rust reference consultation.
 ---
 
 # Teacher's Pet
@@ -11,7 +11,7 @@ Ground a Rust decision in the approved read-only library. Retrieve narrowly; nev
 
 1. Resolve the library from `EPOCH_RUST_REFERENCE_ROOT`; otherwise use `C:\Users\jawsu\Agent_Skills_Master\reference-libraries\rust`.
 2. Run `scripts/Find-RustReference.ps1 -VerifyOnly` before relying on any source. Stop with `REFERENCE_INTEGRITY_FAILURE` if a filename, byte count, or SHA-256 differs from `references/rust-library.json`.
-3. Search with `scripts/Find-RustReference.ps1 -Query '<narrow literal phrase>'`. Refine the query until the returned excerpts directly address the decision. Keep every run within the script's match and context bounds.
+3. Search language questions with `scripts/Find-RustReference.ps1 -Query '<narrow literal phrase>' -Authority official-edition`. Search Cargo questions with `-Authority official-cargo`. Use `-Authority supplementary` only after the applicable official search is insufficient. Refine the query until the excerpts directly address the decision. Keep every run within the script's match and context bounds.
 
 Completion criterion: all cited material came from a catalog-verified file and every excerpt identifies its file and exact line range.
 
