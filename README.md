@@ -96,6 +96,10 @@ Example:
 | [Heads Up Seven Up](skills/heads-up-seven-up/) | Judge without relying on appearances | Unsafe inputs | Classify inputs by provenance and behavior, not surface form |
 | [Hungry Hippos](skills/hungry-hippos/) | Find what is consuming everything | Memory and data leaks | Measure where resources grow, remain retained, or disappear |
 | [Teacher's Pet](skills/teachers-pet/) | Check the approved textbook | Uncertain Rust or Cargo decisions | Retrieve bounded, integrity-verified evidence from the approved local manuals |
+| [Rock 'Em Sock 'Em](skills/rock-em-sock-em/) | Two ideas enter; evidence decides what survives | Convention bias during unconventional brainstorming | Preserve both positions, withdraw defeated objections, and use evidence or tests to decide |
+| [Perfection](skills/perfection/) | Fill every required shape before the board pops | Unrecognized required omissions | Prove missing pieces are necessary, fill only the exact shape, and reject speculative scope |
+| [Life](skills/life/) | Make the program survive a full life | Long-term aging, bloat, and performance decay | Simulate realistic accumulated use and find where trusted software deteriorates over time |
+| [Referee](skills/referee/) | Enforce the rules of play | Repeated builder drift | Issue evidenced yellow cards, substitute on red, reinstate on probation, and expel repeat offenders |
 
 ## Why skills instead of "just be careful"?
 

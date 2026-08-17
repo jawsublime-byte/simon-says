@@ -1,0 +1,7 @@
+interface:
+  display_name: "Life"
+  short_description: "Age a build through realistic months and years of use."
+  default_prompt: "Use $life to test how this build ages at 3 months, 6 months, 1 year, 5 years, and beyond under realistic accumulated use."
+
+policy:
+  allow_implicit_invocation: false

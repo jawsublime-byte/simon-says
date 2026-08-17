@@ -1,0 +1,7 @@
+interface:
+  display_name: "Referee"
+  short_description: "Issue evidence-based cards for repeated builder drift."
+  default_prompt: "Use $referee to govern builder drift with yellow cards, red-card substitution, probation, and expulsion from this build when the evidence warrants it."
+
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Perfection"
+  short_description: "Find required missing pieces before the build board pops."
+  default_prompt: "Use $perfection to inspect this build for any required empty slot that would prevent my approved final result from working."
+
+policy:
+  allow_implicit_invocation: false

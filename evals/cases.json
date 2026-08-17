@@ -151,5 +151,41 @@
     "should_not_trigger": [
       "Answer this unrelated JavaScript syntax question"
     ]
+  },
+  {
+    "skill": "rock-em-sock-em",
+    "should_trigger": [
+      "$rock-em-sock-em challenge my unconventional architecture with evidence instead of pushing it back toward standard practice"
+    ],
+    "should_not_trigger": [
+      "Agree with my idea automatically because I want it to be true"
+    ]
+  },
+  {
+    "skill": "perfection",
+    "should_trigger": [
+      "$perfection inspect this nearly assembled build for any required empty slot that will make the final output fail"
+    ],
+    "should_not_trigger": [
+      "Add every feature that a production system might someday need"
+    ]
+  },
+  {
+    "skill": "life",
+    "should_trigger": [
+      "$life age this completed build through realistic 3-month, 1-year, and 5-year accumulated use and find where it degrades"
+    ],
+    "should_not_trigger": [
+      "Assume we will have a billion users in five years and redesign everything for hyperscale"
+    ]
+  },
+  {
+    "skill": "referee",
+    "should_trigger": [
+      "$referee track evidenced builder drift and apply the yellow-card, red-card, probation, and expulsion rules"
+    ],
+    "should_not_trigger": [
+      "Punish the builder because I prefer a different coding style"
+    ]
   }
 ]

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Rock 'Em Sock 'Em"
+  short_description: "Battle unconventional build ideas with evidence, not convention."
+  default_prompt: "Use $rock-em-sock-em to challenge this unconventional idea fairly until evidence, a test, or an equivalent path decides what survives."
+
+policy:
+  allow_implicit_invocation: false
