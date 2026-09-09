@@ -100,6 +100,7 @@ Example:
 | [Perfection](skills/perfection/) | Fill every required shape before the board pops | Unrecognized required omissions | Prove missing pieces are necessary, fill only the exact shape, and reject speculative scope |
 | [Life](skills/life/) | Make the program survive a full life | Long-term aging, bloat, and performance decay | Simulate realistic accumulated use and find where trusted software deteriorates over time |
 | [Referee](skills/referee/) | Enforce the rules of play | Repeated builder drift | Issue evidenced yellow cards, substitute on red, reinstate on probation, and expel repeat offenders |
+| [3/2 Pitch](skills/three-two-pitch/) | Full count: this pitch matters | Routine or superficial proof on consequential work | Escalate rigor only when the result materially matters and require direct evidence of the real proposition |
 
 ## Why skills instead of "just be careful"?
 

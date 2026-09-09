@@ -1,0 +1,7 @@
+interface:
+  display_name: "3/2 Pitch"
+  short_description: "Apply full-count rigor when the result materially matters."
+  default_prompt: "Use $three-two-pitch to decide whether this is a consequential full-count moment and require direct proof of the real result without adding ceremony to cheap reversible work."
+
+policy:
+  allow_implicit_invocation: false

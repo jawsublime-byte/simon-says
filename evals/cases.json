@@ -187,5 +187,14 @@
     "should_not_trigger": [
       "Punish the builder because I prefer a different coding style"
     ]
+  },
+  {
+    "skill": "three-two-pitch",
+    "should_trigger": [
+      "$three-two-pitch verify whether this acceptance-bearing integration result deserves progression"
+    ],
+    "should_not_trigger": [
+      "Use maximum rigor to check whether this reversible comment typo was fixed"
+    ]
   }
 ]
